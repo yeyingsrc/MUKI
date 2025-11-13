@@ -1,5 +1,6 @@
-<img width="464" height="200" alt="image" src="https://github.com/user-attachments/assets/fd331a9e-7628-462e-9189-3eb8387323c6" />
-
+<p align="center">
+  <img width="464" height="200" alt="Muki - Active Asset Fingerprinting Tool" src="https://github.com/user-attachments/assets/fd331a9e-7628-462e-9189-3eb8387323c6" />
+</p>
 <p align="center">
     <strong>一款全新的主动资产指纹识别工具</strong>
 </p>
