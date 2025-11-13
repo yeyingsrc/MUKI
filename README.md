@@ -9,10 +9,6 @@
     <a href="https://github.com/yourusername/muki/releases"><img src="https://img.shields.io/github/v/release/yourusername/muki"></a>
     <a href="https://golang.org/"><img src="https://img.shields.io/badge/language-Go-blue.svg"></a>
 </p>
-
-<p align="center">
-    <img src="https://i.imgur.com/placeholder-muki-logo.png" width="100" alt="<img width="464" height="264" alt="image" src="https://github.com/user-attachments/assets/149466c5-c1b0-4df0-840a-fbaefc3e13a6" />
-">
 </p>
 
 Muki 是一款专为红队作战设计的主动资产指纹识别工具。在信息收集阶段，Muki 能够帮助安全研究人员快速从 C 段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步的渗透测试。
