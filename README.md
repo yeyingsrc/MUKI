@@ -17,9 +17,6 @@ Muki 是一款专为红队作战设计的主动资产指纹识别工具。在信
 Muki is a brand-new active asset fingerprinting tool designed for red team operations. During reconnaissance, Muki enables security researchers to rapidly pinpoint vulnerable systems from chaotic C-class segments and massive asset lists, enabling targeted exploitation.
 
 ---
-
-## ✨ 特性
-
 - **代理池支持**：支持从文件加载多个代理地址，自动轮换使用，避免 IP 限制  
   **Proxy Pool Support**: Load multiple proxy addresses from file with automatic rotation to avoid IP blocking
 
@@ -48,24 +45,22 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 ![gif1114](https://github.com/user-attachments/assets/9e43cbb9-360d-4c4e-976a-ecab130dcc3f)
 
 
-## 🚀 安装
+安装
 
-### 直接拉取linux版本
+直接拉取linux版本
 
 ```bash
 git clone https://github.com/yourusername/muki.git 
 cd muki|chmod +x muki-linux-amd64
 ./muki-linux-amd64
 
-### 从 Release 下载（推荐生产环境使用）
+从 Release 下载（推荐生产环境使用）
 
 访问 [Releases](https://github.com/yingfff123/MUKI/releases) 页面下载预编译的二进制文件（支持 Linux / macOS / Windows）。
 
 ---
-
-## 📖 使用方法
-
-### 基本用法
+使用方法
+基本用法
 
 ```bash
 # 识别单个目标
@@ -83,19 +78,12 @@ cd muki|chmod +x muki-linux-amd64
 # 使用代理池（每行一个代理，支持 http/https/socks5）
 ./muki finger -l targets.txt -P proxies.txt -T 40
 ```
-### 使用事例：
+使用事例：
 ./mukip finger -l ip-port.txt -o ip-fingeresult.xlsx -T 100
-### 高级用法
-
-```bash
+高级用法
 # 导出为 JSON 格式
 ./muki finger -u http://example.com -F json -o result.json
 
----
-
-## 📌 参数说明
-
-```
 Usage:
   Muki [command]
 
@@ -109,65 +97,7 @@ Flags:
   -h, --help                帮助信息
   -l, --local string        从本地文件读取资产进行指纹识别
   -o, --output string       输出结果文件，支持 .json 和 .xlsx 格式
-  -P, --proxy-pool string   从文件加载代理池，每行一个代理地址
-  -T, --thread int          设置扫描线程数，默认为 20 (default 20)
-  -u, --url string          识别单个目标
-```
 
-> 💡 **提示**：输出的 `.xlsx` 文件中，`被动指纹` 表记录基于响应头/状态码的初步识别；`主动指纹` 表记录通过精确请求、特征匹配、内容比对得出的高置信度结果。
 
 ---
 
-## 🎯 应用场景
-
-- **红队作战**：在信息收集阶段快速识别目标资产，缩小攻击面  
-- **渗透测试**：辅助发现 Web 服务、管理后台、API 接口、未授权系统等高价值目标  
-- **资产测绘**：对组织内部或客户网络进行自动化指纹测绘与分类  
-- **威胁狩猎**：结合其他工具（如 masscan、nmap）构建完整攻击链路  
-- **安全评估**：自动化评估目标系统暴露的中间件与框架风险
-
----
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request 来帮助改进 MUKI！
-
-- 报告误报或漏报指纹
-- 提交新的指纹规则（JSON 格式）
-- 优化 UI 或性能
-- 添加对新协议或框架的支持
-
----
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 — 查看 [LICENSE](LICENSE) 文件了解详情。
-
----
-
-## 🙏 致谢
-
-- 感谢所有为 Muki 贡献代码、指纹与反馈的开发者  
-- 感谢开源社区提供的优秀库：`excelize`, `cobra`, `viper`, `goquery`, `color`  
-- 感谢红队社区持续推动工具的创新与实战价值
-
----
-
-**Developer**: KUKI  
-**Language**: Go  
-**Version**: v1.0.0+  
-**Build Time**: 2025-11-13
-
-> ⚠️ **免责声明**：本工具仅用于合法的安全测试、红队演练与授权资产研究。请严格遵守当地法律法规及道德准则，禁止用于任何非法用途。
-
----
-
-✅ **已适配 macOS / Linux / Windows**  
-✅ **无依赖运行（静态编译）**  
-✅ **支持中文路径与 UTF-8 编码**  
-✅ **SSL 证书问题已内置修复**
-
----
-
-如需获取最新指纹库、配置模板或使用教程，请访问项目 Wiki 或提交 Issue。  
-Let’s make reconnaissance faster. Let’s make red teaming smarter.
