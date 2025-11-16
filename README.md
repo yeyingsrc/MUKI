@@ -81,7 +81,7 @@ cd muki|chmod +x muki-linux-amd64
 使用事例：
 ./mukip finger -l ip-port.txt -o ip-fingeresult.xlsx -T 100
 高级用法
-# 导出为 JSON 格式
+导出为 JSON 格式
 ./muki finger -u http://example.com -F json -o result.json
 
 Usage:
