@@ -12,7 +12,7 @@
   <img width="324" height="120" alt="Muki - Active Asset Fingerprinting Tool" src="https://github.com/user-attachments/assets/fd331a9e-7628-462e-9189-3eb8387323c6" />
 </p>
 <p align="center">
-Muki 是一款专为红队作战设计的主动资产指纹识别工具。在信息收集阶段，Muki 能够帮助安全研究人员快速从 C 段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步的渗透测试。
+Muki 是一款专为红队作战设计的指纹识别工具。在信息收集阶段，Muki 能够帮助安全研究人员快速从 C 段、大量杂乱的资产中精准定位到易被攻击的系统，从而实施进一步的渗透测试。
 
 Muki is a brand-new active asset fingerprinting tool designed for red team operations. During reconnaissance, Muki enables security researchers to rapidly pinpoint vulnerable systems from chaotic C-class segments and massive asset lists, enabling targeted exploitation.
 
