@@ -15,7 +15,6 @@
 Muki is a brand-new active asset fingerprinting tool designed for red team operations. During reconnaissance, Muki enables security researchers to rapidly pinpoint vulnerable systems from chaotic C-class segments and massive asset lists, enabling targeted exploitation.
 
 ---
-- **Proxy Pool Support**: Load multiple proxy addresses from file with automatic rotation to avoid IP blocking
 
 - **Smart Deduplication**: Advanced deduplication algorithm based on URL standardization to dramatically improve scanning efficiency
 
