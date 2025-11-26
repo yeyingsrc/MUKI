@@ -80,7 +80,7 @@ Data Aggregation
 Raw results are normalized, deduplicated, correlated (e.g., paths linked to hosts), and optionally enriched with vulnerability intelligence. 
 
 Report Generation
-Outputs machine-readable reports (JSON/CSV/HTML) containing: 
+Outputs machine-readable reports (JSON/XLSX/) containing: 
      
 
 Asset inventory  
