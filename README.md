@@ -31,7 +31,15 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 - **Dual-mode Output**: Excel files automatically split into two sheets — “Passive Fingerprinting” and “Active Fingerprinting” — for clear audit trails
 
 ---
-![gif1114](https://github.com/user-attachments/assets/9e43cbb9-360d-4c4e-976a-ecab130dcc3f)
+
+
+Release 2.02
+
+
+
+![录屏2025-11-26 10 04](https://github.com/user-attachments/assets/3f864d60-e40e-499a-ad84-dd951503138b)
+
+
 
 
 安装
