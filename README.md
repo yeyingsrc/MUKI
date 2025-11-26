@@ -39,13 +39,12 @@ Release 2.02
 
 ![录屏2025-11-26 10 04](https://github.com/user-attachments/assets/3f864d60-e40e-499a-ad84-dd951503138b)
 
+command-line options:
 
-
-
-安装
-
-直接拉取linux版本
-git clone https://github.com/yourusername/muki.git 
-cd muki|chmod +x muki-linux-amd64
-./muki-linux-amd64
-
+-t,  --threads <num>        Set the number of concurrent threads (default: auto).
+--proxy <url>              Specify an HTTP/HTTPS/SOCKS proxy (e.g., http://127.0.0.1:8080).
+-N,  --no-path-scan        Disable directory/path enumeration.
+-A,  --no-active-fp        Disable active fingerprinting (e.g., service/version detection via probes).
+-x,  --no-passive-fp       Disable passive fingerprinting (e.g., fingerprint inference from responses).
+-u,  --target <url>        Scan a single target URL or IP address.
+-l,  --target-list <file>  Perform batch scanning from a file containing multiple targets (one per line).
