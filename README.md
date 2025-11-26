@@ -58,7 +58,8 @@ command-line options:
 
 Introduction
 
-<img width="1034" height="1772" alt="whiteboard_exported_image" src="https://github.com/user-attachments/assets/34a7e3ba-8dab-4497-9730-cf98c2658760" />
+<img width="517" height="886" alt="whiteboard_exported_image" src="https://github.com/user-attachments/assets/86a79ecd-30e5-405e-a308-5b3b01397c07" />
+
 
 The tool performs systematic reconnaissance through a four-stage pipeline: asset ingestion → parallel probing → data aggregation → structured reporting. 
 
