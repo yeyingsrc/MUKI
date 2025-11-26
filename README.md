@@ -52,7 +52,8 @@ Introduction
 <img width="517" height="886" alt="whiteboard_exported_image" src="https://github.com/user-attachments/assets/86a79ecd-30e5-405e-a308-5b3b01397c07" />
 
 
-The tool performs systematic reconnaissance through a four-stage pipeline: asset ingestion → parallel probing → data aggregation → structured reporting. 
+The tool performs systematic reconnaissance through a four-stage pipeline: asset 
+     ingestion → parallel probing → data aggregation → structured reporting. 
 
 Asset Ingestion
 Targets (IPs, domains, URLs) are loaded from an external list, defining scan scope and ensuring reproducibility. 
