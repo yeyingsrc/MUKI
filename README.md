@@ -1,5 +1,5 @@
 <p>
-    <strong>一款指纹识别工具</strong>
+    <strong>A fingerprinting tool</strong>
 </p>
 
 <p align="center">
