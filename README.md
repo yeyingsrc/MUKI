@@ -23,8 +23,6 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 - **Reduced False Positives**: Refined matching logic (e.g., fixed GeoServer FPs)  
 - **30,000+ Precision Fingerprints**: Covers mainstream frameworks, middleware, APIs, and known vulnerabilities  
 - **130+ Active Fingerprint Rules**: Targeted probes for accurate service detection  
-- **Dual-mode Excel Output**: Separate sheets for *Passive* and *Active Fingerprinting* results
-
 
 Release 2.02
 
