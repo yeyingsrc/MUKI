@@ -32,19 +32,19 @@ Release 2.02
 
 command-line options:
 
-   -t,  --threads <num>        Set the number of concurrent threads (default: auto).
+    -t,  --threads <num>        Set the number of concurrent threads (default: auto).
 
-   --proxy= <url>              Specify an HTTP/HTTPS/SOCKS proxy (e.g., http://127.0.0.1:8080).
+    --proxy= <url>              Specify an HTTP/HTTPS/SOCKS proxy (e.g., http://127.0.0.1:8080).
 
-   -N,  --no-path-scan        Disable directory/path enumeration.
+    -N,  --no-path-scan        Disable directory/path enumeration.
 
-   -A,  --no-active-fp        Disable active fingerprinting (e.g., service/version detection via probes).
+    -A,  --no-active-fp        Disable active fingerprinting (e.g., service/version detection via probes).
 
-   -x,  --no-passive-fp       Disable passive fingerprinting (e.g., fingerprint inference from responses).
+    -x,  --no-passive-fp       Disable passive fingerprinting (e.g., fingerprint inference from responses).
 
-   -u,  --target <url>        Scan a single target URL or IP address.
+    -u,  --target <url>        Scan a single target URL or IP address.
 
-   -l,  --target-list <file>  Perform batch scanning from a file containing multiple targets (one per line).
+    -l,  --target-list <file>  Perform batch scanning from a file containing multiple targets (one per line).
 
 
 Introduction
