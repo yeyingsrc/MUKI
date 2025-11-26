@@ -62,31 +62,31 @@ Introduction
 
 The tool performs systematic reconnaissance through a four-stage pipeline: asset ingestion → parallel probing → data aggregation → structured reporting. 
 
-    Asset Ingestion
-    Targets (IPs, domains, URLs) are loaded from an external list, defining scan scope and ensuring reproducibility. 
+Asset Ingestion
+Targets (IPs, domains, URLs) are loaded from an external list, defining scan scope and ensuring reproducibility. 
 
-    Parallel Probing Modules
-    Three independent modules run concurrently: 
+Parallel Probing Modules
+Three independent modules run concurrently: 
      
 
-    Active Fingerprinting: Sends protocol-specific probes to identify services (e.g., SSH, RDP, web servers) with high confidence.  
-    Passive Fingerprinting: Analyzes response artifacts (HTTP headers, TLS JA3, HTML patterns) to infer frameworks, WAFs, or CMS without additional traffic.  
-    Sensitive Path Detection: Checks for high-risk paths—including admin interfaces (e.g., /admin), config files (e.g., .env), version control dirs (e.g., /.git), and known vulnerability endpoints (e.g., Spring Boot Actuator, ThinkPHP routes)—using curated dictionaries and response validation.
+Active Fingerprinting: Sends protocol-specific probes to identify services (e.g., SSH, RDP, web servers) with high confidence.  
+Passive Fingerprinting: Analyzes response artifacts (HTTP headers, TLS JA3, HTML patterns) to infer frameworks, WAFs, or CMS without additional traffic.  
+Sensitive Path Detection: Checks for high-risk paths—including admin interfaces (e.g., /admin), config files (e.g., .env), version control dirs (e.g., /.git), and known vulnerability endpoints (e.g., Spring Boot Actuator, ThinkPHP routes)—using curated dictionaries and response validation.
      
 
 Each module can be disabled via command-line flags (-A, -x, -N) for operational flexibility. 
 
-    Data Aggregation
-    Raw results are normalized, deduplicated, correlated (e.g., paths linked to hosts), and optionally enriched with vulnerability intelligence. 
+Data Aggregation
+Raw results are normalized, deduplicated, correlated (e.g., paths linked to hosts), and optionally enriched with vulnerability intelligence. 
 
-    Report Generation
-    Outputs machine-readable reports (JSON/CSV/HTML) containing: 
+Report Generation
+Outputs machine-readable reports (JSON/CSV/HTML) containing: 
      
 
-    Asset inventory  
-    Service fingerprints (active/passive)  
-    Confirmed sensitive paths with HTTP status codes  
-    Actionable risk indicators
+Asset inventory  
+Service fingerprints (active/passive)  
+Confirmed sensitive paths with HTTP status codes  
+Actionable risk indicators
      
 
 Designed for red team operations, attack surface mapping, and security validation—prioritizing precision, coverage, and integration readiness. 
