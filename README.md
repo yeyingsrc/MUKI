@@ -26,10 +26,6 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 
 Release 2.02
 
-
-
-![录屏2025-11-26 10 04](https://github.com/user-attachments/assets/3f864d60-e40e-499a-ad84-dd951503138b)
-
 command-line options:
 
     -t,  --threads <num>        Set the number of concurrent threads (default: auto).
