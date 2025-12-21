@@ -29,14 +29,23 @@ Release 2.02
 command-line options:
 
    -f, --file string     file containing URLs to scan
+   
   -h, --help            help for Muki
+  
   -l, --list string     file containing multiple URLs to scan (one per line)
+  
   -A, --no-active       disable active fingerprint scanning
+  
   -N, --no-dir          disable directory scanning
+  
   -x, --no-passive      disable passive fingerprint scanning
+  
   -o, --output string   output file path
+  
   -p, --proxy string    specify proxy server, e.g. http://127.0.0.1:8080 or socks5://127.0.0.1:1080
+  
   -t, --thread int      number of threads (default: CPU cores × 3, min 8, max 100) (default 20)
+  
   -u, --url string      URL to scan
 
 
