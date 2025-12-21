@@ -27,8 +27,6 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 Release 2.02
 
 command-line options:
-
-   -f, --file string     file containing URLs to scan
    
   -h, --help            help for Muki
   
