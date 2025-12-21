@@ -22,25 +22,23 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 - **Thread Control**: Adjust concurrency with `-T` for optimal speed/stability  
 - **Reduced False Positives**: Refined matching logic (e.g., fixed GeoServer FPs)  
 - **30,000+ Precision Fingerprints**: Covers mainstream frameworks, middleware, APIs, and known vulnerabilities  
-- **130+ Active Fingerprint Rules**: Targeted probes for accurate service detection  
+- **200+ Active Fingerprint Rules**: Targeted probes for accurate service detection  
 
 Release 2.02
 
 command-line options:
 
-    -t,  --threads <num>        Set the number of concurrent threads (default: auto).
+   -f, --file string     file containing URLs to scan
+  -h, --help            help for Muki
+  -l, --list string     file containing multiple URLs to scan (one per line)
+  -A, --no-active       disable active fingerprint scanning
+  -N, --no-dir          disable directory scanning
+  -x, --no-passive      disable passive fingerprint scanning
+  -o, --output string   output file path
+  -p, --proxy string    specify proxy server, e.g. http://127.0.0.1:8080 or socks5://127.0.0.1:1080
+  -t, --thread int      number of threads (default: CPU cores × 3, min 8, max 100) (default 20)
+  -u, --url string      URL to scan
 
-    --proxy= <url>              Specify an HTTP/HTTPS/SOCKS proxy (e.g., http://127.0.0.1:8080).
-
-    -N,  --no-path-scan        Disable directory/path enumeration.
-
-    -A,  --no-active-fp        Disable active fingerprinting (e.g., service/version detection via probes).
-
-    -x,  --no-passive-fp       Disable passive fingerprinting (e.g., fingerprint inference from responses).
-
-    -u,  --target <url>        Scan a single target URL or IP address.
-
-    -l,  --target-list <file>  Perform batch scanning from a file containing multiple targets (one per line).
 
 
 Introduction
