@@ -84,3 +84,9 @@ Actionable risk indicators
      
 
 Designed for red team operations, attack surface mapping, and security validation—prioritizing precision, coverage, and integration readiness. 
+
+Sensitive Information Identification Feature: Extract sensitive information from the response packets of all traffic.
+
+
+<img width="1046" height="558" alt="image" src="https://github.com/user-attachments/assets/b6b06ae2-ed61-4791-bdde-a42413edfb61" />
+
