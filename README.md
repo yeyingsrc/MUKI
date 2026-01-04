@@ -50,7 +50,8 @@ command-line options:
 
 Introduction
 
-<img width="517" height="886" alt="whiteboard_exported_image" src="https://github.com/user-attachments/assets/86a79ecd-30e5-405e-a308-5b3b01397c07" />
+<img width="1034" height="1852" alt="whiteboard_exported_image" src="https://github.com/user-attachments/assets/24276d29-e1d3-489e-9f54-5c4e6877ee64" />
+
 
 
 The tool performs systematic reconnaissance through a four-stage pipeline: asset 
