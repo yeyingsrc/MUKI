@@ -16,15 +16,15 @@ Muki is a brand-new active asset fingerprinting tool designed for red team opera
 
 ---
 
-- **Smart Deduplication**: URL normalization–based deduplication for higher scan efficiency  
-- **Multi-format Export**: Results exported in Excel (.xlsx) and JSON  
-- **Key Asset Extraction**: Auto-identifies and highlights high-value targets  
-- **Thread Control**: Adjust concurrency with `-T` for optimal speed/stability  
-- **Reduced False Positives**: Refined matching logic (e.g., fixed GeoServer FPs)  
-- **30,000+ Precision Fingerprints**: Covers mainstream frameworks, middleware, APIs, and known vulnerabilities  
-- **200+ Active Fingerprint Rules**: Targeted probes for accurate service detection  
-
-Release 2.02
+- Smart Deduplication: URL normalization–based deduplication for higher scan efficiency  
+- Multi-format Export: Results exported in Excel (.xlsx) and JSON  
+- Key Asset Extraction: Auto-identifies and highlights high-value targets  
+- Thread Control: Adjust concurrency with -T for optimal speed/stability  
+- Reduced False Positives: Refined matching logic (e.g., fixed GeoServer FPs)  
+- 30,000+ Precision Fingerprints: Covers mainstream frameworks, middleware, APIs, and known vulnerabilities  
+- 200+ Active Fingerprint Rules: Targeted probes for accurate service detection  
+- Passive Sensitive Data Extraction: Automatically extracts high-risk information (e.g., phone numbers, email addresses, API keys, and credentials) from response content without active probing
+Release 2.1.1
 
 command-line options:
    
