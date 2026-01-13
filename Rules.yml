@@ -57,15 +57,7 @@ rules:
     sensitive: false
 - group: 指纹信息
   rule:
-  - name: Shiro
-    loaded: true
-    f_regex: (=deleteMe|rememberMe=)
-    s_regex: ''
-    format: '{0}'
-    color: red
-    scope: any header
-    engine: nfa
-    sensitive: true
+
   - name: url跳转参数
     loaded: true
     f_regex: ((?<=[?&])(goto|redirect_to|redirect_url|jump_to|to|target|jump|returnUrl|redirect|url|forward_url|continue|u|link|domain|link_to|next|r)(=))
